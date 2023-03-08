@@ -7,4 +7,4 @@ hello.txtをEC2上へデプロイする。
 - EC2 delete-me
   - ログイン -> EC2 instance connectから
 - CodePipeline delete-me
-  - 
+- CodeBuild delete-me
