@@ -17,4 +17,7 @@ phases:
 
 artifacts:
   files:
-    - ./dist.tar.gz
+    - bin
+    - dist
+    - codedeploy/appspec.yml
+    - codedeploy/*.sh
