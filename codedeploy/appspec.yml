@@ -1,0 +1,18 @@
+version: 0.0
+os: linux
+# files:
+#   - source: /hoge.txt
+#     destination: /var/hoge.txt
+hooks:
+  BeforeInstall:
+    - location: before_install.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: after_install.sh
+      timeout: 300
+      runas: root
+  Install:
+    - location: install.sh
+      timeout: 300
+      runas: root
