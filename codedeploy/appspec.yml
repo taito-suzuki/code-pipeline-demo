@@ -5,14 +5,14 @@ os: linux
 #     destination: /var/hoge.txt
 hooks:
   BeforeInstall:
-    - location: before_install.sh
+    - location: hook_before_install.sh
       timeout: 300
       runas: root
   AfterInstall:
-    - location: after_install.sh
+    - location: hook_after_install.sh
       timeout: 300
       runas: root
   Install:
-    - location: install.sh
+    - location: hook_install.sh
       timeout: 300
       runas: root

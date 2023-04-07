@@ -10,7 +10,6 @@ phases:
   build:
     commands:
       - echo "ビルド中"
-      - tar -zcvf dist.tar.gz bin dist codedeploy
   post_build:
     commands:
       - echo "ビルド後"
